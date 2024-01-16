@@ -50,3 +50,4 @@ set_global_assignment -library "lib_Chenillard_sys" -name MISC_FILE [file join $
 set_global_assignment -library "lib_Chenillard_sys" -name MISC_FILE [file join $::quartus(sip_path) "submodules/Chenillard_sys_nios2_gen2_0_cpu_test_bench.v"]
 set_global_assignment -library "lib_Chenillard_sys" -name MISC_FILE [file join $::quartus(sip_path) "submodules/Chenillard_sys_jtag_uart_0.vhd"]
 set_global_assignment -library "lib_Chenillard_sys" -name MISC_FILE [file join $::quartus(sip_path) "submodules/Chenillard_sys_LEDs.vhd"]
+set_global_assignment -library "lib_Chenillard_sys" -name MISC_FILE [file join $::quartus(sip_path) "submodules/Chenillard_sys_Button.vhd"]

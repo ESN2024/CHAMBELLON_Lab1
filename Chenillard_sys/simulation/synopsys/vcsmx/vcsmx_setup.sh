@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 646 win32 2024.01.15.09:30:35
+# ACDS 18.1 646 win32 2024.01.16.17:22:49
 
 # ----------------------------------------
 # vcsmx - auto-generated simulation script
@@ -107,7 +107,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 646 win32 2024.01.15.09:30:35
+# ACDS 18.1 646 win32 2024.01.16.17:22:49
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="Chenillard_sys"
@@ -173,6 +173,7 @@ mkdir -p ./libraries/onchip_memory2_0/
 mkdir -p ./libraries/nios2_gen2_0/
 mkdir -p ./libraries/jtag_uart_0/
 mkdir -p ./libraries/LEDs/
+mkdir -p ./libraries/Button/
 mkdir -p ./libraries/altera_ver/
 mkdir -p ./libraries/lpm_ver/
 mkdir -p ./libraries/sgate_ver/
@@ -268,6 +269,7 @@ if [ $SKIP_COM -eq 0 ]; then
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/Chenillard_sys_nios2_gen2_0.v"                                         -work nios2_gen2_0                                
   vhdlan -xlrm $USER_DEFINED_VHDL_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS             "$QSYS_SIMDIR/submodules/Chenillard_sys_jtag_uart_0.vhd"                                        -work jtag_uart_0                                 
   vhdlan -xlrm $USER_DEFINED_VHDL_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS             "$QSYS_SIMDIR/submodules/Chenillard_sys_LEDs.vhd"                                               -work LEDs                                        
+  vhdlan -xlrm $USER_DEFINED_VHDL_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS             "$QSYS_SIMDIR/submodules/Chenillard_sys_Button.vhd"                                             -work Button                                      
   vhdlan -xlrm $USER_DEFINED_VHDL_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS             "$QSYS_SIMDIR/Chenillard_sys.vhd"                                                                                                                 
 fi
 

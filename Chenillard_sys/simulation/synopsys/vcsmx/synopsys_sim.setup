@@ -28,6 +28,7 @@ onchip_memory2_0:                             ./libraries/onchip_memory2_0/
 nios2_gen2_0:                                 ./libraries/nios2_gen2_0/                                
 jtag_uart_0:                                  ./libraries/jtag_uart_0/                                 
 LEDs:                                         ./libraries/LEDs/                                        
+Button:                                       ./libraries/Button/                                      
 altera_ver:                                   ./libraries/altera_ver/                                  
 lpm_ver:                                      ./libraries/lpm_ver/                                     
 sgate_ver:                                    ./libraries/sgate_ver/                                   

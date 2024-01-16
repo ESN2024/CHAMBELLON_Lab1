@@ -192,6 +192,10 @@
    path="simulation/submodules/Chenillard_sys_LEDs.vhd"
    type="VHDL"
    library="LEDs" />
+ <file
+   path="simulation/submodules/Chenillard_sys_Button.vhd"
+   type="VHDL"
+   library="Button" />
  <file path="simulation/Chenillard_sys.vhd" type="VHDL" />
  <topLevel name="Chenillard_sys" />
  <deviceFamily name="max10" />
