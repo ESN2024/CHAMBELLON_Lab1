@@ -142,7 +142,7 @@ ACDS_VERSION := 18.1
 ELF := Chenillard.elf
 
 # Paths to C, C++, and assembly source files.
-C_SRCS += C:/intelFPGA/18.1/CHAMBELLON_Lab1/Software/main.c
+C_SRCS += ../main.c
 CXX_SRCS :=
 ASM_SRCS :=
 
@@ -180,7 +180,7 @@ CRT0 :=
 SYS_LIB :=
 
 # Define path to the root of the BSP.
-BSP_ROOT_DIR := C:/intelFPGA/18.1/CHAMBELLON_Lab1/Software/BSP
+BSP_ROOT_DIR := ../BSP/
 
 # List of application specific include directories, library directories and library names
 APP_INCLUDE_DIRS :=
