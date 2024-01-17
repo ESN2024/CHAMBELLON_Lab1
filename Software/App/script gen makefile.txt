@@ -1,3 +1,5 @@
+cd C:/intelFPGA/18.1/CHAMBELLON_Lab1/Software/App
+
 nios2-bsp hal ../BSP/ ../../Chenillard_sys.sopcinfo
 
 nios2-app-generate-makefile --app-dir ../App/ --bsp-dir ../BSP/ --elf-name Chenillard.elf --src-files ../main.c
