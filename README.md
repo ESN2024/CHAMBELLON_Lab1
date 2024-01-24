@@ -37,3 +37,4 @@ Une vidéo de démonstration est disponible pour comprendre le fonctionnement.
 
 https://github.com/ESN2024/CHAMBELLON_Lab1/assets/156073044/648a399c-63c6-4a5f-9521-3d2640bc48c4
 
+Ce TP nous a permis de prendre en main l'utilisation de Nios2 sur le logiciel Quartus, savoir configurer des LEDs, switch et bouton, ceci à travers l'exercice de réalisation d'un chenillard.
