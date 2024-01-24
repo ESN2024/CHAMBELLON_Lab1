@@ -1,4 +1,4 @@
-#CHAMBELLON_Lab1
+# CHAMBELLON_Lab1
 
 L'objectif de ce LAB1 est de créer un effet de chenillard avec 8 LEDS sur la carte DE10-Lite. Le chenillard démarre en appuyant sur un bouton poussoir et on peut ajuster la vitesse avec les 4 switchs.
 
