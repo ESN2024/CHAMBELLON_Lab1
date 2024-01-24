@@ -2,6 +2,10 @@
 
 L'objectif de ce LAB1 est de créer un effet de chenillard avec 8 LEDS sur la carte DE10-Lite. Vous démarrez le chenillard en appuyant sur un bouton poussoir et ajustez la vitesse avec 4 interrupteurs.
 
+Voici l'architecture de ce système :
+
+![image](https://github.com/ESN2024/CHAMBELLON_Lab1/assets/156073044/6433b95e-b5cc-4132-9241-d1f59fedac9f)
+
 Pour concevoir le système, vous avez besoin de :
 
     RAM pour stocker les données
